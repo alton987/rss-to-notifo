@@ -8,8 +8,8 @@ require 'cgi'
 require 'open-uri'
 
 @options = {
-  :user  => ENV["NOTIFO_USER"],
-  :key   => ENV["NOTIFO_KEY"],
+  :user  => ENV[alton987],
+  :key   => ENV[xe3b01d0d857241cf4a605a6ecac9bdbab36d03a0],
   :title => "RSS Notification",
   :db    => File.dirname(__FILE__) + "/seen.db"
 }
