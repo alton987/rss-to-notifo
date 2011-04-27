@@ -15,7 +15,7 @@ require 'open-uri'
 }
 
 parser = OptionParser.new do |opts|
-  opts.banner = "Usage: rss2notifo.rb [@options] FEED_URL"
+  opts.banner = "Usage: rss2notifo.rb [@options] http://sports.espn.go.com/espn/rss/news"
   
   opts.on("-u", "--user USER", "Notifo username") do |u|
     @options[:user] = u
